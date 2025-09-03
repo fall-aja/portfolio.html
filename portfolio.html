@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat PortFolio</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Fall</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>    
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <p style="color: rgba(255, 0, 0, 0.836);">-Helloo</p>                
+            <h2>I'M Muhammad <span style="color: rgb(13, 73, 195);">Naufal</span> Chandra AR</h2>
+            <h3>I'm a
+                <span style="--i:0;" data-text="Student">Student</span>
+                <span style="--i:1;" data-text="Developer">Developer</span>
+                <span style="--i:2;" data-text="Designer">Designer</span>
+            </h3>
+
+            <p>Halo saya Muhammad Naufal, saya tinggal di Jakarta, saya dari sekolah SMKN 40 Jakarta.
+            kelas XI-RPL. Saya mempunyai hobi berolahraga seperti bermain bulu tangkis, voli dll.</p>
+            <div class="btn-sci">
+                <a href="CV opang.pdf" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class="ri-whatsapp-line"></i></a>
+                    <a href="https://www.tiktok.com/@panggg_aja?_t=ZS-8ymOYBAue5n&_r=1"><i class="ri-tiktok-line"></i></a>
+                    <a href="http://www.youtube.com/@fall.2408"><i class="ri-youtube-line"></i></a>
+                    <a href="https://www.instagram.com/faallmhmmd/profilecard/?igsh=MXBpeXo0ZGgxamVxZA=="><i class="ri-instagram-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="image.png">
+                    <div style="width: 95%; height: 95%; background: linear-gradient(135deg, #667eea, #764ba2); 
+                    border-radius: 50%; display: flex; align-items: center; 
+                    justify-content: center; color: white; font-size: 24px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="home-img">
+                    <div class="img-box">
+                        <div class="img-item">
+                            <img src="image.png">
+                            <div style="width: 95%; height: 95%; background: linear-gradient(135deg, #667eea, #764ba2); 
+                            border-radius: 50%; display: flex; align-items: center; 
+                            justify-content: center; color: white; font-size: 24px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="About-Me-2">
+                    <h1 class="sub-tittle" style="color: rgba(27, 13, 184, 0.734);">About Me</h1>
+                    <p>Halo semua perkenalkan nama saya Muhammad Naufal, saya lahir di Jakarta pada 24 Agustus 2008, 
+                    saya berpendidikan di SMKN 40 Jakarta dan saya di SMKN 40 mengikuti kegiatan eskul pramuka, voli, dan hadroh.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab(event, 'Skill')">Skill</p>
+                        <p class="tab-links" onclick="openTab(event, 'Pendidikan')">Pendidikan</p>
+                        <p class="tab-links" onclick="openTab(event, 'Pengalaman')">Pengalaman</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="Skill">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designer Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Pendidikan">
+                        <ul>
+                            <li><span>SDN UKU 01 Pagi</span><br>Tahun 2015-2021</li>
+                            <li><span>SMP Negeri 71 Jakarta Pusat</span><br>Tahun 2021-2024</li>
+                            <li><span>SMK Negeri 40 Jakarta Timur</span><br>Tahun 2024-2027</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Pengalaman">
+                        <ul>
+                            <li><span>Turnamen Bola Voli</span><br>Oktober 2023</li>
+                            <li><span>Lomba Adzan wilayah DKI Jakarta</span><br>April 2023 & 2024</li>
+                            <li><span>Ketua Ekstrakurikuler</span><br>Tahun 2022-2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="skill">
+    <div class="container">
+    <h1 class="sub-tittle" style="color: rgba(255, 255, 255, 0.9); text-align: center;">My Skills</h1>
+        <div class="Skill-List">
+            <div>
+            <i class="ri-code-s-slash-line"></i>
+            <h2>Web Design</h2>
+            <p>Membuat desain website yang menarik dan responsif menggunakan HTML, CSS, dan JavaScript untuk memberikan pengalaman pengguna yang optimal.</p>
+            <a href="#">Learn More</a>
+            </div>
+
+            <div>
+            <i class="ri-crop-line"></i>
+            <h2>UI/UX Design</h2>
+            <p>Merancang antarmuka pengguna yang intuitif dan pengalaman pengguna yang menyenangkan untuk aplikasi web dan mobile.</p>
+            <a href="#">Learn More</a>
+            </div>
+                
+            <div>
+            <i class="ri-app-store-line"></i>
+            <h2>App Design</h2>
+            <p>Mengembangkan aplikasi mobile yang fungsional dan menarik untuk platform Android dan iOS dengan performa yang optimal.</p>
+            <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h1 class="sub-tittle" style="color: rgba(255, 255, 255, 0.9); text-align: center;">Contact Me</h1>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="ri-mail-line"></i>
+                    <h3>Email</h3>
+                    <p>chandra12naufal@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="ri-phone-line"></i>
+                    <h3>Phone</h3>
+                    <p>+62 813-1877-5548</p>
+                </div>
+                <div class="contact-item">
+                    <i class="ri-map-pin-line"></i>
+                    <h3>Location</h3>
+                    <p>Jl.MultiKarya 3 Rt 009/ Rw 09 No.18, Jakarta Timur, DKI Jakarta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openTab(event, tabName) {
+            // Hapus class active dari semua tab links
+            var tabLinks = document.getElementsByClassName("tab-links");
+            for (var i = 0; i < tabLinks.length; i++) {
+                tabLinks[i].classList.remove("active-link");
+            }
+            
+            // Hapus class active dari semua tab contents
+            var tabContents = document.getElementsByClassName("tab-contents");
+            for (var i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove("active-tab");
+            }
+            
+            // Tambah class active ke tab yang diklik
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+
+        // Smooth scrolling untuk navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                }
+            });
+        });
+
+        // Update active navbar item on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navItems = document.querySelectorAll('.navbar ul li');
+            
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.querySelector('a').getAttribute('href') === `#${current}`) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
