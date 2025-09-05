@@ -8,12 +8,12 @@ font-family: "merienda", cursive;
 }
 
 body {
-background: hsla(225, 33%, 61%, 0.859);
+background: hsla(225, 65%, 35%, 0.952);
 }
 
 a {
 color: rgb(255, 255, 255);
-text-decoration: none;
+text-decoration: none ;
 }
 
 .navbar {
@@ -226,8 +226,9 @@ width: 18vw;
         /* About Section */
         #about {
             padding: 80px 0;
+            margin: 9px;
             color: #ffffff;
-            background: hsla(225, 33%, 61%, 0.808);
+            background: hsla(225, 65%, 35%, 0.952);
         }
 
         .container {
@@ -332,7 +333,8 @@ width: 18vw;
         /* Skills Section */
         #skill {
             padding: 80px 0;
-            background-color: hsl(225, 41%, 63%);
+            margin: 10px;
+            background-color:hsla(225, 65%, 35%, 0.766);
         }
 
         .Skill-List {
@@ -390,8 +392,9 @@ width: 18vw;
 
         /* Contact Section */
         #contact {
-            padding: 80px 0;
-            background-color: hsl(225, 35%, 55%);
+            padding: 100px 0;
+            margin: 10px;
+            background-color: hsla(225, 65%, 35%, 0.705);
             color: white;
         }
 
