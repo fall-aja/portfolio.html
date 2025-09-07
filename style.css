@@ -302,240 +302,225 @@ animation: fadeIn 0.5s ease-in-out;
 display: block;
 }
 
-                @keyframes fadeIn {
-                    from { opacity: 0; transform: translateY(10px); }
-                    to { opacity: 1; transform: translateY(0); }
-                }
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
 
-                .tab-contents ul li {
-                    list-style: none;
-                    margin: 15px 0;
-                    padding: 10px 0;
-                    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-                }
+.tab-contents ul li {
+list-style: none;
+margin: 15px 0;
+padding: 10px 0;
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-                .tab-contents ul li span {
-                    color: #21f989;
-                    font-size: 20px;
-                    font-weight: 600;
-                }
+.tab-contents ul li span {
+color: #21f989;
+font-size: 20px;
+font-weight: 600;
+}
 
-                .tab-contents ul li:last-child {
-                    border-bottom: none;
-                }
+.tab-contents ul li:last-child {
+border-bottom: none;
+}
 
-                /* Skills Section */
-                #skill {
-                    padding: 90px 0;
-                    background-color:hsla(225, 76%, 53%, 0.327);
-                }
+/* Skills Section */
+#skill {
+padding: 90px 0;
+background-color:hsla(225, 76%, 53%, 0.327);
+}
 
-                .Skill-List {
-                    display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                    margin-top: 50px;
-                    gap: 30px;
-                }
+.Skill-List {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+margin-top: 50px;
+gap: 30px;
+}
 
-                .Skill-List div {
-                    background: #dba9ed;
-                    padding: 30px;
-                    font-size: 15px;
-                    font-weight: 300;
-                    border-radius: 15px;
-                    transition: all 0.3s ease;
-                    text-align: center;
-                    color: #333;
-                }
+.Skill-List div {
+background: #dba9ed;
+padding: 30px;
+font-size: 15px;
+font-weight: 300;
+border-radius: 15px;
+transition: all 0.3s ease;
+text-align: center;
+color: #443838;
+}
 
-                .Skill-List div i {
-                    font-size: 55px;
-                    margin-bottom: 30px;
-                    color: #8b6bac;
-                }
+.Skill-List div i {
+font-size: 55px;
+margin-bottom: 30px;
+color: #8b6bac;
+}
 
-                .Skill-List div h2 {
-                    font-size: 25px;
-                    font-weight: 600;
-                    margin-bottom: 15px;
-                    color: #333;
-                }
+.Skill-List div h2 {
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 15px;
+color: #333;
+}
 
-                .Skill-List div a {
-                    color: #0062ff;
-                    font-size: 14px;
-                    margin-top: 20px;
-                    display: inline-block;
-                    padding: 8px 16px;
-                    border-radius: 20px;
-                    border: 2px solid #0062ff;
-                    transition: all 0.3s ease;
-                }
+.Skill-List div a {
+color: #0062ff;
+font-size: 14px;
+margin-top: 20px;
+display: inline-block;
+padding: 8px 16px;
+border-radius: 20px;
+border: 2px solid #0062ff;
+transition: all 0.3s ease;
+}
 
-                .Skill-List div:hover {
-                    background: #21f989;
-                    transform: translateY(-10px);
-                    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-                }
+.Skill-List div:hover {
+background: #21f989;
+transform: translateY(-10px);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
 
-                .Skill-List div a:hover {
-                    background: #0062ff;
-                    color: white;
-                }
+.Skill-List div a:hover {
+background: #0062ff;
+color: white;
+}
 
-        /* Contact Section - Enhanced */
-        #contact {
-            padding: 100px 0;
-            background-color: hsla(225, 65%, 35%, 0.705);
-            color: white;
-        }
+/* Contact Section*/
+#contact {
+padding: 100px 0;
+background-color: hsla(225, 65%, 35%, 0.705);
+color: white;
+}
 
-        /* Enhanced Contact Form */
-        .contact-form {
-            position: relative;
-        }
+/* Enhanced Contact Form */
+.contact-form {
+position: relative;
+}
 
-        .contact-form form {
-            max-width: 600px;
-            margin: 2rem auto;
-            text-align: center;
-            margin-bottom: 4em;
-            background: rgba(255, 255, 255, 0.05);
-            padding: 40px;
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-        }
+.contact-form form {
+max-width: 600px;
+margin: 2rem auto;
+text-align: center;
+margin-bottom: 4em;
+background: rgba(255, 255, 255, 0.05);
+padding: 40px;
+border-radius: 20px;
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.468);
+box-shadow: 0 15px 35px rgba(143, 63, 63, 0.144);
+}
 
-        .contact-form form .input-box {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
+.contact-form form .input-box {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 20px;
+}
 
-        .contact-form form .input-box input,
-        .contact-form form textarea {
-            width: 100%;
-            padding: 18px 20px;
-            font-size: 16px;
-            color: #fff;
-            background: rgba(255, 255, 255, 0.1);
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            border-radius: 12px;
-            margin: 10px 0;
-            resize: none;
-            font-family: "merienda", cursive;
-            transition: all 0.3s ease;
-            outline: none;
-        }
+.contact-form form .input-box input,
+.contact-form form textarea {
+width: 100%;
+padding: 18px 20px;
+font-size: 16px;
+color: #fff;
+background: rgba(100, 100, 100, 0.155);
+border: 2px solid rgba(255, 255, 255, 0.247);
+border-radius: 12px;
+margin: 10px 0;
+resize: none;
+font-family: "merienda", cursive;
+transition: all 0.3s ease;
+outline: none;
+}
 
-        .contact-form form .input-box input {
-            flex: 1;
-            min-width: calc(50% - 10px);
-        }
+.contact-form form .input-box input {
+flex: 1;
+min-width: calc(50% - 10px);
+}
 
-        .contact-form form .input-box input::placeholder,
-        .contact-form form textarea::placeholder {
-            color: rgba(255, 255, 255, 0.7);
-            font-family: "merienda", cursive;
-        }
+.contact-form form .input-box input::placeholder,
+.contact-form form textarea::placeholder {
+color: rgba(255, 255, 255, 0.7);
+font-family: "merienda", cursive;
+}
 
-        .contact-form form .input-box input:focus,
-        .contact-form form textarea:focus {
-            border-color: #21f989;
-            background: rgba(33, 249, 137, 0.1);
-            box-shadow: 0 0 20px rgba(33, 249, 137, 0.3);
-            transform: translateY(-2px);
-        }
+.contact-form form .input-box input:focus,
+.contact-form form textarea:focus {
+border-color: #21f989;
+background: rgba(33, 249, 137, 0.1);
+box-shadow: 0 0 20px rgba(33, 249, 137, 0.3);
+transform: translateY(-2px);
+}
 
-        .contact-form form textarea {
-            min-height: 150px;
-            resize: vertical;
-        }
+.contact-form form textarea {
+min-height: 150px;
+resize: vertical;
+}
 
-        /* Enhanced Submit Button */
-        .btn-1 {
-            display: inline-block;
-            padding: 18px 40px;
-            background: linear-gradient(135deg, #21f989, #41fb9b);
-            border: none;
-            border-radius: 50px;
-            color: #000;
-            font-size: 18px;
-            font-weight: 700;
-            font-family: "merienda", cursive;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            position: relative;
-            overflow: hidden;
-            margin-top: 30px;
-            box-shadow: 0 10px 30px rgba(33, 249, 137, 0.4);
-        }
+/* Enhanced Submit Button */
+.btn-1 {
+display: inline-block;
+padding: 18px 40px;
+background: linear-gradient(135deg, #65eaa5db, #5fd799da);
+border: none;
+border-radius: 50px;
+color: #ffffff;
+font-size: 18px;
+font-weight: 700;
+font-family: "merienda", cursive;
+cursor: pointer;
+transition: all 0.3s ease;
+text-transform: uppercase;
+letter-spacing: 2px;
+position: relative;
+overflow: hidden;
+margin-top: 30px;
+box-shadow: 0 10px 30px rgba(33, 249, 137, 0.4);
+}
 
-        .btn-1::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-            transition: left 0.5s;
-        }
+.btn-1::before {
+content: '';
+position: absolute;
+top: 0;
+left: -100%;
+width: 100%;
+height: 100%;
+background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+transition: left 0.5s;
+}
 
-        .btn-1:hover::before {
-            left: 100%;
-        }
+.btn-1:hover::before {
+left: 100%;
+}
 
-        .btn-1:hover {
-            background: linear-gradient(135deg, #41fb9b, #21f989);
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(33, 249, 137, 0.6);
-            color: #fff;
-        }
+.btn-1:hover {
+background: linear-gradient(135deg, #41fb9b, #21f989);
+transform: translateY(-5px);
+box-shadow: 0 15px 40px rgba(255, 162, 255, 0.403);
+color: #fff;
+}
 
-        .btn-1:active {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(33, 249, 137, 0.5);
-        }
-
-        /* Loading and Success States */
-        .btn-1.loading {
-            background: linear-gradient(135deg, #666, #888);
-            cursor: not-allowed;
-            pointer-events: none;
-        }
-
-        .btn-1.loading::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 20px;
-            height: 20px;
-            border: 2px solid transparent;
-            border-top: 2px solid #fff;
-            border-radius: 50%;
-            transform: translate(-50%, -50%);
-            animation: spin 1s linear infinite;
-        }
-
-        @keyframes spin {
+.btn-1.loading::after {
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+width: 20px;
+height: 20px;
+border: 2px solid transparent;
+border-top: 2px solid #fa1a1a;
+border-radius: 50%;
+transform: translate(-50%, -50%);
+animation: spin 1s linear infinite;
+}
+@keyframes spin {
             0% { transform: translate(-50%, -50%) rotate(0deg); }
             100% { transform: translate(-50%, -50%) rotate(360deg); }
-        }
-
-        .btn-1.success {
-            background: linear-gradient(135deg, #4CAF50, #45a049);
+}
+.btn-1.success {
+            background: linear-gradient(135deg, #030503, #45a049);
             color: #fff;
         }
-
-        .btn-1.success::after {
-            content: '✓';
+.btn-1.success::after {
+            content: '';
             position: absolute;
             top: 50%;
             left: 50%;
@@ -548,51 +533,50 @@ display: block;
             height: auto;
         }
 
-        /* Contact Info Enhanced */
-        .contact-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 60px;
-        }
+/* Contact Info */
+.contact-info {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 30px;
+margin-top: 60px;
+}
 
-        .contact-item {
-            text-align: center;
-            padding: 30px 20px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 20px;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-        }
+.contact-item {
+text-align: center;
+padding: 30px 20px;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+transition: all 0.3s ease;
+border: 1px solid rgba(255, 255, 255, 0.279);
+backdrop-filter: blur(10px);
+}
 
-        .contact-item:hover {
-            transform: translateY(-10px);
-            background: rgba(33, 249, 137, 0.1);
-            border-color: rgba(33, 249, 137, 0.3);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-        }
+.contact-item:hover {
+transform: translateY(-10px);
+background: rgba(91, 255, 189, 0.433);
+border-color: rgba(29, 228, 125, 0.897);
+box-shadow: 0 20px 40px rgba(0, 0, 0, 0.156);
+}
 
-        .contact-item i {
-            font-size: 50px;
-            color: #21f989;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-        }
+.contact-item i {
+font-size: 50px;
+color: #21f989;
+margin-bottom: 20px;
+transition: all 0.3s ease;
+}
 
-        .contact-item:hover i {
-            transform: scale(1.2);
-            color: #41fb9b;
-        }
+.contact-item:hover i {
+transform: scale(1.2);
+color: #41fb9b;
+}
+.contact-item h3 {
+margin-bottom: 15px;
+color: #21f989;
+font-size: 22px;
+}
 
-        .contact-item h3 {
-            margin-bottom: 15px;
-            color: #21f989;
-            font-size: 22px;
-        }
-
-        .contact-item p {
-            color: rgba(255, 255, 255, 0.9);
-            font-size: 16px;
-            line-height: 1.6;
-        }
+.contact-item p {
+color: rgba(255, 255, 255, 0.9);
+font-size: 16px;
+line-height: 1.6;
+}
